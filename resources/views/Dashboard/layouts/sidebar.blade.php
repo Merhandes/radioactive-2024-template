@@ -10,7 +10,7 @@
     </button>
   </div>
   <div class="no-scrollbar flex flex-col overflow-y-auto duration-300 ease-linear">
-    <nav class="mt-5 px-4 py-4 lg:mt-9 lg:px-6" x-data="{selected: $persist('Dashboard')}">
+    <nav class="mt-5 px-4 py-4 lg:mt-9 lg:px-6">
       <div>
         <h3 class="mb-4 ml-4 text-sm font-medium text-bodydark2">MENU</h3>
         <ul class="mb-6 flex flex-col gap-1.5">

@@ -84,7 +84,7 @@
         window.addEventListener('click', function (e) {
             const dropdown = document.querySelector('#dropdown');
             const dropdownButton = document.querySelector('#dropdownButton');
-            const fill = document.querySelector('#fill');
+            // const fill = document.querySelector('#fill');
             if (!dropdownButton.contains(e.target)) {
                 dropdown.classList.add('hidden');
                 fill.classList.toggle('rotate-180');

@@ -383,7 +383,7 @@
             AOS.init();
         </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
-        <script>
+        {{-- <script>
             document.addEventListener('DOMContentLoaded', () => {
                 const carousel = document.getElementById('carousel');
                 const items = document.querySelectorAll('.carousel-item');
@@ -405,8 +405,8 @@
                     carousel.style.transform = `translateX(${offset}%)`;
                 }
             });
-        </script>
-        <script>
+        </script> --}}
+        {{-- <script>
             var CurrentDate = new Date();
             var regDate = new Date("2023-09-18");
             var closeDate = new Date("2024-10-20");
@@ -423,7 +423,7 @@
             }
             checkTime();
             setInterval(checkTime, 1000);
-        </script>
+        </script> --}}
         <script>
             function scrollToTimeline() {
                 const timelineSection = document.getElementById('timeline');
@@ -439,7 +439,7 @@
                 });
             }
         </script>
-        <script>
+        {{-- <script>
             document.addEventListener('DOMContentLoaded', () => {
                 const gallery = document.getElementById('gallery');
                 const allImages = [];
@@ -479,7 +479,7 @@
                 });
                 randomizeGallery();
             });
-        </script>
+        </script> --}}
         <script>
             function openPopup(src) {
                 document.getElementById('popupImage').src = src;

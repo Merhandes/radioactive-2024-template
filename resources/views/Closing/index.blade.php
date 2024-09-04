@@ -188,7 +188,7 @@
         AOS.init();
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
-    <script>
+    {{-- <script>
         var today = new Date();
         var presaleStartTime = new Date('2023-10-01');
         var presaleEndTime = new Date('2023-11-18T00:00:00+07:00');
@@ -242,6 +242,6 @@
                 buttonPresale3.classList.remove('hidden');
             }
         }
-    </script>
+    </script> --}}
 </body>
 @endsection
